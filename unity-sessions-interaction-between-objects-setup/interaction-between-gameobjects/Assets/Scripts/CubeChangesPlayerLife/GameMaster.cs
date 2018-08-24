@@ -5,7 +5,13 @@ using UnityEngine;
 namespace CubeChangesPlayerLife
 {
 	public class GameMaster : MonoBehaviour {
+
+        public Sphere Sphere;
 		// Use this for initialization
+        void OnMouseDown()
+        {
+            Sphere.BajaVida();
+        }
 		void Start () {
 
 		}
